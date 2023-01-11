@@ -1,9 +1,11 @@
 body {
     font-size: 1.2rem;
+    background-color: rgb(173, 138, 97);
 }
 .container {
     width: min(80ch, 100vw - 4rem);
     margin-inline: auto;
+    background-color: goldenrod
 }
 
 main {
@@ -40,4 +42,10 @@ main {
     padding: 0.5rem;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
